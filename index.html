@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- STYLES -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./static/css/main.css" />
+
+		<!-- SEAO -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./static/img/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./static/img/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./static/img/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./static/img/favicon/site.webmanifest" />
+
+		<title>Voorpret</title>
+
+		<!-- Librerias -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	</head>
+	<body class="bg-[#FEFEFE]">
+		<!-- HERO -->
+		<header class="">
+			<img
+				src="./static/img/deskt/hero2.webp"
+				alt="Voorpret"
+				class="w-[100vw] simple_reveal sm:block hidden"
+			/>
+			<img
+				src="./static/img/mobile/hero2.webp"
+				alt="Voorpret"
+				class="w-[100vw] simple_reveal sm:hidden block"
+			/>
+			<img
+				src="./static/img/deskt/slogan.svg"
+				alt="Voorpret slogan"
+				class="mx-auto reveal px-5"
+			/>
+		</header>
+		<!-- END HERO -->
+		<main class="mt-[200px]">
+			<!-- SERVICIOS -->
+			<p class="reveal title text-center">Servicios</p>
+			<section class="services">
+				<article class="reveal service mx-auto">
+					<img
+						class="mx-auto my-[50px]"
+						src="./static/img/vuelos.svg"
+						alt="Vuelos"
+					/>
+					<p class="subtitle text-center mb-[25px]">Vuelos</p>
+					<p class="text-center">Nacionales e Internacionales.</p>
+				</article>
+				<article class="reveal service mx-auto">
+					<img
+						class="mx-auto my-[50px]"
+						src="./static/img/hoteles.svg"
+						alt="Vuelos"
+					/>
+					<p class="subtitle text-center mb-[25px]">Hoteles</p>
+					<p class="text-center">
+						Buscamos el Hospedaje a tu medida y necesidad.
+					</p>
+				</article>
+				<article class="reveal service mx-auto">
+					<img
+						class="mx-auto my-[50px]"
+						src="./static/img/traslado.svg"
+						alt="Vuelos"
+					/>
+					<p class="subtitle text-center mb-[25px]">
+						Traslado y excursión
+					</p>
+					<p class="text-center">
+						Disfruta de tus vacaciones con todos los servicios
+						incluidos.
+					</p>
+				</article>
+				<article class="reveal service mx-auto">
+					<img
+						class="mx-auto my-[50px]"
+						src="./static/img/asist.svg"
+						alt="Vuelos"
+					/>
+					<p class="subtitle text-center mb-[25px]">
+						Asistencia al viajero
+					</p>
+					<p class="text-center">
+						Viaja tranquilo, con una asistencia a tu medida.
+					</p>
+				</article>
+			</section>
+			<!-- END SERVICIOS -->
+			<!-- FORM -->
+			<section class="reveal flex mt-[200px]">
+				<article
+					style="
+						background-image: url(./static/img/form.svg);
+						background-size: cover;
+					"
+					class="reveal hidden basis-5/12 sm:flex"
+				>
+					.
+				</article>
+				<article
+					style="flex-direction: column"
+					class="flex ml-[50px] sm:basis-6/12"
+				>
+					<p class="title">Hagamos planes</p>
+					<div>
+						<form
+							style="flex-direction: column"
+							class="flex"
+							action="https://formspree.io/f/xvolkvzj"
+							method="POST"
+						>
+							<div class="flex">
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Nombre">Nombre</label>
+									<input
+										class="input"
+										type="text"
+										name="Nombre"
+										id="Nombre"
+										placeholder=""
+										required=""
+									/>
+								</div>
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Apellido"
+										>Apellido</label
+									>
+									<input
+										class="input"
+										type="text"
+										name="Apellido"
+										id="Apellido"
+										placeholder=""
+										required=""
+									/>
+								</div>
+							</div>
+							<div class="flex">
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Email">Email</label>
+									<input
+										class="input"
+										type="text"
+										name="Email"
+										id="Email"
+										placeholder=""
+										required=""
+									/>
+								</div>
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Telefono"
+										>Telefono</label
+									>
+									<input
+										class="input"
+										type="number"
+										name="Telefono"
+										id="Telefono"
+										placeholder=""
+										required=""
+									/>
+								</div>
+							</div>
+							<div class="flex">
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Mes de viaje"
+										>Mes de viaje</label
+									>
+									<input
+										class="input"
+										type="text"
+										name="Mes de viaje"
+										id="Mes de viaje"
+										placeholder=""
+										required=""
+									/>
+								</div>
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Duracion de viaje"
+										>Duracion</label
+									>
+									<input
+										class="input"
+										type="text"
+										name="Duracion de viaje"
+										id="Duracion de viaje"
+										placeholder=""
+										required=""
+									/>
+								</div>
+							</div>
+							<div class="flex">
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Destino"
+										>Destino</label
+									>
+									<input
+										class="input"
+										type="text"
+										name="Destino"
+										id="Destino"
+										placeholder=""
+										required=""
+									/>
+								</div>
+								<div
+									class="flex basis-1/2 mt-[15px]"
+									style="flex-direction: column"
+								>
+									<label class="" for="Pasajeros"
+										>Pasajeros</label
+									>
+									<input
+										class="input"
+										type="text"
+										name="Pasajeros"
+										id="Pasajeros"
+										placeholder=""
+										required=""
+									/>
+								</div>
+							</div>
+							<!-- your other form fields go here -->
+							<fieldset id="fs-frm-selects">
+								<input
+									class="input"
+									type="hidden"
+									name="_subject"
+									id="email-subject"
+									value="Mensaje desde la pagina"
+								/>
+							</fieldset>
+							<div class="flex">
+								<div
+									class="flex basis-1/2 mt-[45px]"
+									style="flex-direction: column"
+								>
+									<button
+										class="button text-center"
+										type="submit"
+									>
+										Enviar
+									</button>
+								</div>
+								<div
+									class="flex basis-1/3 mt-[15px]"
+									style="
+										flex-direction: row;
+										justify-content: space-around;
+										align-items: flex-end;
+									"
+								>
+									<a
+										target="_blank"
+										href="https://www.instagram.com/babel25demayo/"
+									>
+										<img
+											width="50px"
+											height="50px"
+											src="./static/img/insta.svg"
+											alt="Instagram"
+										/>
+									</a>
+									<a
+										target="_blank"
+										href="https://www.facebook.com/BabelViajes25deMayo/?hc_ref=ARSh60HobhHq1yyV4yKDKalUhfb42YDiBIf-Z2M-CiM8NQB-pcrX1PBa0WW8W_LW050&fref=nf&__xts__[0]=68.ARDT5iCdqKBrh2A7xXgXF4JIw25-ND9pDuWqHTXkErnwuH3_-cTICxfBwwPa1B4FDiz56GXcxIol9bs_OSllBDIlHntnZtTpZP1nRrqJmM5hAX2dF1P1GoqBTGrXkxbsEQZHh3Fz5RW7LIbHIhluYkkcZ8ObZFmsRIoqTN-fySjOq-WfI3jAr9xZ4kU1lDNGNdrAt4ZZ6YjCtpotJN7-09beZz1gOS0r8jNV3fftCU8YVWciG3bZqE6fnwv817U6_iJUeqn9xTvWbu4Tt0TpEc_0Q7f-GMfze43-Dnxat36vHgZziup9Bg"
+									>
+										<img
+											width="50px"
+											height="50px"
+											src="./static/img/facebook.svg"
+											alt="Facebook"
+										/>
+									</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</article>
+			</section>
+			<!-- END FORM -->
+			<!-- QUIENES SOMOS -->
+			<section class="flex-directions reveal flex mt-[200px]">
+				<article
+					style="flex-direction: column"
+					class="mx-[50px] flex basis-1/2"
+				>
+					<p class="title">Quienes somos</p>
+					<p>
+						Somos una empresa de viajes y turismo cuyos comienzos
+						nos llevan al año 2013, cuando se crea Babel Viajes 25
+						de mayo, una empresa de viajes y turismo que nació
+						ofreciendo un amplio servicio en turismo nacional como
+						internacional especializándose en destinos exóticos y
+						viajes de mujeres, con una notable fortaleza un servicio
+						personalizado pre y post venta...
+						<a
+							target="_blank"
+							style="font-weight: bold"
+							class="hover:text-[#FFD448] text-[#FFC60E]"
+							href="./somos.html"
+							>¡Ver mas!</a
+						>
+					</p>
+				</article>
+				<article class="mt-[50px] flex basis-1/2">
+					<img
+						class="mx-auto"
+						src="./static/img/quienes.svg"
+						alt="Travel"
+					/>
+				</article>
+			</section>
+			<!-- END QUIENES SOMOS -->
+			<footer class="footer mt-[400px] bg-[#FAFAFA] flex">
+				<p class="mt-[15px] text-center" style="font-size: 18px">
+					© Voorpret - Todos los derechos reservados
+				</p>
+				<div class="flex mt-[15px]" style="flex-direction: row">
+					<img
+						class="mr-[15px]"
+						src="./static/img/footer/logo1.svg"
+						alt="FAEVYT"
+					/>
+					<img
+						class="ml-[15px]"
+						src="./static/img/footer/logo2.svg"
+						alt="TURISMO"
+					/>
+				</div>
+				<a
+					class="mt-[15px] text-center"
+					target="_blank"
+					href="https://juanikitro.com"
+					>@JuaniKitro</a
+				>
+			</footer>
+		</main>
+		<!-- SCRIPTS -->
+		<script src="./static/js/scrollreveal.js"></script>
+	</body>
+</html>
