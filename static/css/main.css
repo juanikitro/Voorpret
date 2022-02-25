@@ -29,7 +29,8 @@ label {
 	gap: 0px 100px;
 	grid-template-areas:
 		'. .'
-		'. .';
+		'. .'
+		' . ';
 }
 
 .service {
@@ -97,6 +98,23 @@ label {
 			'. '
 			'. '
 			'. '
+			'. '
 			'. ';
+	}
+	p,
+	label {
+		font-size: 20px;
+		letter-spacing: 1px;
+		color: #231c17;
+	}
+	.title {
+		font-size: 36px;
+		font-weight: Bold;
+		letter-spacing: 2px;
+	}
+	.subtitle {
+		font-size: 28px;
+		font-weight: Medium;
+		letter-spacing: 1px;
 	}
 } ;
