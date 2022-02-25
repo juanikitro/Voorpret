@@ -37,6 +37,10 @@ label {
 	max-width: 455px;
 }
 
+.icon {
+	width: 75px;
+}
+
 .input {
 	background-color: #efefef;
 	height: 50px;
